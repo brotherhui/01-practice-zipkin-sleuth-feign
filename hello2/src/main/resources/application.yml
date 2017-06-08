@@ -1,0 +1,10 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: hello2
+  sleuth:
+      sampler:
+        percentage: 1.0
+      enabled: true

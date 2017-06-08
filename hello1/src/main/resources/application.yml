@@ -1,0 +1,11 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: hello1
+#The sampler is the most important for each zipkin sleuth client
+  sleuth:
+      sampler:
+        percentage: 1.0
+      enabled: true
